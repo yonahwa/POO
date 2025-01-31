@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Jonah\POO\Labo1\Labo1\main.cpp(5,6): warning C4101: 'b' : variable locale non référencée
+D:\Jonah\POO\Labo1\Labo1\main.cpp(7,6): warning C4101: 'c' : variable locale non référencée
+D:\Jonah\POO\Labo1\Labo1\main.cpp(6,6): warning C4101: 'd' : variable locale non référencée
+D:\Jonah\POO\Labo1\Labo1\main.cpp(16,6): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+  Labo1.vcxproj -> D:\Jonah\POO\Labo1\x64\Debug\Labo1.exe
