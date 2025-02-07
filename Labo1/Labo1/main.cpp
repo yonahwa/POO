@@ -89,7 +89,7 @@ void exercice5() {
 	std::cin >> nombre;
 
 	std::bitset<8> bits(nombre);
-	std::cout << bits << std::endl;
+	
 
 	for (int i = 0; i < 8;i++) {
 		if (bits[i] == 1) {
@@ -99,9 +99,10 @@ void exercice5() {
 			bits[i] = 1;
 		}
 	}
-	std::cout << "l'inverse : " << bits << std::endl;
+	
 	std::cout << "l'inverse : " << bits.to_ulong() << std::endl;
 }
+
 void exercice6() {
 	int nombre;
 	std::cout << "Entrer un nombre : ";
@@ -115,10 +116,27 @@ void exercice6() {
 	}
 }
 void exercice7() {
-	
+	int i;
+	int n = 4;
+
+	for (i = 0; i < n; i++) {
+		
+	}
 }
 
+void exercice9() {
+	int n;
+
+	std::cout << "Entrez votre nombre : ";
+	std::cin >> n;
+	std::cout << sizeof(n);
+	//transformer mon nombre en tableau de character
+	//char sep[sizeof(n)];
+
+
+
+}
 
 void main() {
-	exercice7();
+	exercice9();
 }

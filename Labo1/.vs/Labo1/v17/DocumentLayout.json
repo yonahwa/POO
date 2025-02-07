@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\devoir\\POO\\Labo1\\",
+  "WorkspaceRootPath": "D:\\Jonah\\POO\\Labo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5473588-F1A7-4D8D-A87D-F8E5DC05A202}|Labo1\\Labo1.vcxproj|C:\\devoir\\POO\\Labo1\\Labo1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C5473588-F1A7-4D8D-A87D-F8E5DC05A202}|Labo1\\Labo1.vcxproj|D:\\Jonah\\POO\\Labo1\\Labo1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C5473588-F1A7-4D8D-A87D-F8E5DC05A202}|Labo1\\Labo1.vcxproj|solutionrelative:Labo1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\devoir\\POO\\Labo1\\Labo1\\main.cpp",
+              "DocumentMoniker": "D:\\Jonah\\POO\\Labo1\\Labo1\\main.cpp",
               "RelativeDocumentMoniker": "Labo1\\main.cpp",
-              "ToolTip": "C:\\devoir\\POO\\Labo1\\Labo1\\main.cpp",
+              "ToolTip": "D:\\Jonah\\POO\\Labo1\\Labo1\\main.cpp",
               "RelativeToolTip": "Labo1\\main.cpp",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAkwHUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAI0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-31T16:06:58.461Z",
               "EditorCaption": ""

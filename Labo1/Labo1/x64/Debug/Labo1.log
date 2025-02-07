@@ -1,5 +1,3 @@
 ﻿  main.cpp
-C:\devoir\POO\Labo1\Labo1\main.cpp(142,6): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
-  Labo1.vcxproj -> C:\devoir\POO\Labo1\x64\Debug\Labo1.exe
-  'pwsh.exe' n'est pas reconnu en tant que commande interne
-  ou externe, un programme exécutable ou un fichier de commandes.
+D:\Jonah\POO\Labo1\Labo1\main.cpp(140,6): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+  Labo1.vcxproj -> D:\Jonah\POO\Labo1\x64\Debug\Labo1.exe
