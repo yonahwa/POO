@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <bitset>
 
 void exercice1(void) {
 	int a;
@@ -10,11 +12,12 @@ void exercice1(void) {
 	std::cin >> a >> b >> c >> d;
 
 	int add = a + b + c + d;
-	float moy = add / static_case<float>(4);
-	int max;
-	if (a > max) {
-		max = a;
-	}
+
+	float moy = add / static_cast<float>(4);
+
+	int prod = a * b * c * d;
+
+	int max = a;
 	if (b > max) {
 		max = b;
 	}
@@ -24,10 +27,8 @@ void exercice1(void) {
 	if (d > max) {
 		max = d;
 	}
-	int min;
-	if (a < min) {
-		min = a;
-	}
+
+	int min = a;	
 	if (b < min) {
 		min = b;
 	}
@@ -41,10 +42,83 @@ void exercice1(void) {
 	std::cout << "somme : " << add << std::endl;
 	std::cout << "moyenne : " << moy << std::endl;
 	std::cout << "produit : " << std::endl;
-	std::cout << ""
+	std::cout << "max : " << max << std::endl;
+	std::cout << "min : " << min << std::endl;
+}
+
+void exercice2() {
+	int r;
+
+	std::cout << "Entrez le rayon du cercle : ";
+	std::cin >> r;
+
+	std::cout << "Circonference : " << (2 * 3.14159 * r) << std::endl;
+	std::cout << "Aire : " << (3.14159 * (r * r)) << std::endl;
 
 }
 
+void exercice3() {
+	std::string nom;
+
+	std::cout << "Nom : ";
+	std::getline(std::cin, nom);
+
+	std::cout << "Bonjour " << nom << std::endl;
+
+}
+
+void exercice4() {
+	int bitone = 0;
+	int nombre;
+	std::cout << "Entrer un nombre : ";
+	std::cin >> nombre;
+
+	std::bitset<8> bits(nombre);
+	for (int i = 0; i < 8; i++) {
+		if (bits[i] == 1) {
+			bitone++;
+		}
+	}
+	std::cout << bitone << std::endl;
+
+}
+
+void exercice5() {
+	int nombre;
+	std::cout << "Entrer un nombre : ";
+	std::cin >> nombre;
+
+	std::bitset<8> bits(nombre);
+	std::cout << bits << std::endl;
+
+	for (int i = 0; i < 8;i++) {
+		if (bits[i] == 1) {
+			bits[i] = 0;
+		}
+		else {
+			bits[i] = 1;
+		}
+	}
+	std::cout << "l'inverse : " << bits << std::endl;
+	std::cout << "l'inverse : " << bits.to_ulong() << std::endl;
+}
+void exercice6() {
+	int nombre;
+	std::cout << "Entrer un nombre : ";
+	std::cin >> nombre;
+
+	if (nombre % 2 == 0) {
+		std::cout << nombre << " est une puissance de 2" << std::endl;
+	}
+	else {
+		std::cout << nombre << " n'est pas une puissance de 2" << std::endl;
+	}
+}
+void exercice7() {
+	
+}
+
+
 void main() {
-	exercice1();
+	exercice7();
 }
