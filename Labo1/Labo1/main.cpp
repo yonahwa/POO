@@ -116,11 +116,25 @@ void exercice6() {
 	}
 }
 void exercice7() {
-	int i;
-	int n = 4;
-
-	for (i = 0; i < n; i++) {
-		
+	int Ee = 6;
+	int Ei = 2;
+	int a = 0;
+	for (int i = 1; i <= Ee; i++) {
+		std::cout << " ";
+	}
+	std::cout << "*" << std::endl;
+	Ee = Ee - 2;
+	while (Ee > 0) {
+		for (int i = 0; i < Ee; i++) {
+			std::cout << " ";
+		}
+		std::cout << "*";
+		for (int i = 0; i < Ei; i++) {
+			std::cout << " ";
+		}
+		std::cout << "*" << std::endl;
+		Ee = Ee - 2;
+		Ei = Ei + 4;
 	}
 }
 
