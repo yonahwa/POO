@@ -1,3 +1,4 @@
 ﻿  main.cpp
-D:\Jonah\POO\Labo1\Labo1\main.cpp(140,6): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+D:\Jonah\POO\Labo1\Labo1\main.cpp(187,13): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+D:\Jonah\POO\Labo1\Labo1\main.cpp(216,6): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
   Labo1.vcxproj -> D:\Jonah\POO\Labo1\x64\Debug\Labo1.exe
